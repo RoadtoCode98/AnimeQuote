@@ -25,7 +25,7 @@ SECRET_KEY = '3k96sqm#t%&nh7nz5h8cpex)658s0&*x(mtcs9drbf!(asls*0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['e295bd5a.ngrok.io', '127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'animequote.pythonanywhere.com']
 
 
 # Application definition
