@@ -1,0 +1,52 @@
+{% extends 'quotes/navbar.html' %}
+{% load static %}
+{% block content %}
+
+<div class="jumbotron">
+	<h1 class="font-italic">Anime Quotes</h1>
+	<br />
+	<p class="lead" style="color:red;"><b>Anime Quotes is your destination to find your favourite anime's quotes</b></p>
+		<p class="lead" style="color:red;"><b>Quotes of 50+ different anime available to download.</b></p>
+</div>
+
+<div id="demo" class="carousel slide container-fluid" data-ride="carousel">
+
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+	<li data-target="#demo" data-slide-to="3"></li>
+	<li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+
+  <div class="carousel-inner container-fluid">
+    <div class="carousel-item active">
+      <img src="{%static 'img/carousel/aot.jpg' %}" class="img-fluid" alt="Attack on Titan">
+    </div>
+    <div class="carousel-item" >
+      <img src="{%static 'img/carousel/fmab.jpg'%}" class="img-fluid" alt="FMAB">
+    </div>
+    <div class="carousel-item">
+      <img src="{%static 'img/carousel/hxh.jpg' %}" class="img-fluid" alt="HxH">
+    </div>
+	<div class="carousel-item" >
+      <img src="{%static 'img/carousel/deathnote.jpg' %}" class="img-fluid" alt="Death Note">
+    </div>
+	<div class="carousel-item" >
+      <img src="{%static 'img/carousel/steinsgate.jpg' %}" class="img-fluid" alt="Steins;Gate">
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+<hr id="footer_hr" />
+</body>
+</html>
+{% endblock %}
